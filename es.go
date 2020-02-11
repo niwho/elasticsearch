@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	es "github.com/olivere/elastic"
+	es "github.com/olivere/elastic/v6"
 )
 
 type EsClient struct {
